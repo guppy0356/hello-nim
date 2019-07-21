@@ -7,6 +7,6 @@
 
 import unittest
 
-import helloworld
-test "can add":
-  check add(5, 5) == 10
+import helloworld/submodule
+test "say Hello, world":
+  check "Hello, world".greeting == "Hello, world"

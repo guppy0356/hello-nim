@@ -3,10 +3,5 @@
 # remove this file altogether. You may create additional modules alongside
 # this file as required.
 
-type
-  Submodule* = object
-    name*: string
-
-proc initSubmodule*(): Submodule =
-  ## Initialises a new ``Submodule`` object.
-  Submodule(name: "Anonymous")
+proc greeting*(msg: string): string =
+  return msg
